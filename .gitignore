@@ -1,0 +1,21 @@
+
+# ==== ArgMaxWithValue 忽略规则 ====
+/ArgMaxWithValue/build_out
+/ArgMaxWithValue/ArgMaxWithValueCase*
+# ==== ArgMaxWithValue 结束 ====
+
+# ==== MatMulSub 忽略规则 ====
+/MatMulSub/MatMulSubCase*
+/MatMulSub/build_out/
+# ==== MatMulSub 结束 ====
+
+# ==== NLLLoss 忽略规则 ====
+/NLLLoss/NLLLossCase*
+/NLLLoss/build_out/
+# ==== NLLLoss 结束 ====
+
+# ==== 全局忽略规则 ====
+*.log
+*.tmp
+*.bak
+.DS_Store

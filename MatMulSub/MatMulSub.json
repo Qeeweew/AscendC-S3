@@ -1,0 +1,58 @@
+[
+    {
+        "op": "MatMulSub",
+        "input_desc": [
+            {
+                "name": "x1",
+                "param_type": "required",
+                "format": [
+                    "ND",
+                    "ND"
+                ],
+                "type": [
+                    "float32",
+                    "float16"
+                ]
+            },
+            {
+                "name": "x2",
+                "param_type": "required",
+                "format": [
+                    "ND",
+                    "ND"
+                ],
+                "type": [
+                    "float32",
+                    "float16"
+                ]
+            },
+            {
+                "name": "x3",
+                "param_type": "required",
+                "format": [
+                    "ND",
+                    "ND"
+                ],
+                "type": [
+                    "float32",
+                    "float16"
+                ]
+            }
+        ],
+        "output_desc": [
+            {
+                "name": "y",
+                "param_type": "required",
+                "format": [
+                    "ND",
+                    "ND"
+                ],
+                "type": [
+                    "float32",
+                    "float16"
+                ]
+            }
+        ],
+        "attr": []
+    }
+]
